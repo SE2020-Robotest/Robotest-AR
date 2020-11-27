@@ -39,7 +39,8 @@ namespace CSharpGRPC.services
                 }
                 double w = block.W;
                 double h = block.H;
-                Console.WriteLine("Block Type: {0}, w: {1}, h:{2}", str, w, h);
+                Point pos = block.Pos;
+                Console.WriteLine("Block Type: {0}, w: {1}, h:{2}, posx: {3}, posy: {4}", str, w, h, pos.Posx, pos.Posy);
             }
 
 

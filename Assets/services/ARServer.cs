@@ -13,8 +13,12 @@ namespace CSharpGRPC.services
     {
         const int Port = 8888;
         const string IpAddr = "localhost";
+		static private bool _AR_SERVER_RUNNING = true;
+		static private object locker = new object();
+		
         public static void StartServer()
         {
+			_AR_SERVER_RUNNING = true;
             Server server = new Server
             {
                 Services =
@@ -29,10 +33,19 @@ namespace CSharpGRPC.services
             server.Start();
             //Console.WriteLine("Start AR Listen Server on port " + Port);
 			//Debug.Log("Start AR Listen Server on port" + Port);
-            while(true){
+            while(_AR_SERVER_RUNNING){
 			}
-			Console.ReadKey();
+			//Console.ReadKey();
             server.ShutdownAsync().Wait();
+			Debug.Log("AR Server Stopped");
         }
+		
+		public static void StopServer()
+		{
+			lock(locker)
+			{
+				_AR_SERVER_RUNNING = false;
+			}
+		}
     }
 }

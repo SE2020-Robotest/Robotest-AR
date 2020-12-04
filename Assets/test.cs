@@ -14,6 +14,10 @@ public class test : MonoBehaviour
         //ARServer.StartServer();
 		Debug.Log("Start Listen Server Thread");
 		listenserverThread.Start();
+		Thread.Sleep(1000);
+		ARServer.StopServer();
+		Debug.Log("Stop AR Server");
+		Thread.Sleep(1000);
 		//Debug.Log("Start AR Listen Server");
     }
 

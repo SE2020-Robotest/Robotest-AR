@@ -7,6 +7,7 @@ using Grpc.Core;
 
 using System.Threading.Tasks;
 using System.Linq;
+using MapOperation;
 
 namespace CSharpGRPC.services
 {
@@ -41,6 +42,8 @@ namespace CSharpGRPC.services
                 double h = block.H;
                 Console.WriteLine("Block Type: {0}, w: {1}, h:{2}", str, w, h);
             }
+            LoadMap loadMap = new LoadMap();
+            loadMap.loadMap(request);
 
 
             // the following code return the Response to the Client.

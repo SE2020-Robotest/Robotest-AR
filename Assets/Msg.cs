@@ -30,26 +30,26 @@ namespace Msg {
             "KAESEQoJdGltZXN0YW1wGAUgASgFIkUKBlJCUGF0aBIXCgNwb3MYASADKAsy",
             "Ci5tc2cuUG9pbnQSEQoJc3RhcnR0aW1lGAIgASgFEg8KB2VuZHRpbWUYAyAB",
             "KAUiGQoJVm9pY2VEYXRhEgwKBGZpbGUYASABKAwiLAoIVm9pY2VTdHISDQoF",
-            "dm9pY2UYASABKAkSEQoJdGltZXN0YW1wGAIgASgFIlwKBUJsb2NrEh0KBHR5",
+            "dm9pY2UYASABKAkSEQoJdGltZXN0YW1wGAIgASgFInUKBUJsb2NrEh0KBHR5",
             "cGUYASABKA4yDy5tc2cuQmxvY2suVHlwZRIJCgF3GAIgASgBEgkKAWgYAyAB",
-            "KAEiHgoEVHlwZRIICgRDVUJFEAASDAoIQ1lMSU5ERVIQASJICgNNYXASEQoJ",
-            "cm9vbXdpZHRoGAEgASgBEhIKCnJvb21oZWlnaHQYAiABKAESGgoGYmxvY2tz",
-            "GAMgAygLMgoubXNnLkJsb2NrIl8KCkNvbnRyb2xDbWQSJAoDY21kGAEgASgO",
-            "MhcubXNnLkNvbnRyb2xDbWQuQ3RybENtZCIrCgdDdHJsQ21kEgkKBVNUQVJU",
-            "EAASCAoEU1RPUBABEgsKB0NPTk5FQ1QQAiJwCgVEcml2ZRIlCghkcml2ZWNt",
-            "ZBgBIAEoDjITLm1zZy5Ecml2ZS5Ecml2ZUNtZCJACghEcml2ZUNtZBIJCgVG",
-            "Uk9OVBAAEggKBEJBQ0sQARIICgRMRUZUEAISCQoFUklHSFQQAxIKCgZST1RB",
-            "VEUQBCJbCghSZXNwb25zZRIkCgZzdGF0dXMYASABKA4yFC5tc2cuUmVzcG9u",
-            "c2UuU3RhdHVzIikKBlN0YXR1cxIGCgJPSxAAEgkKBUVSUk9SEAESDAoIRklO",
-            "SVNIRUQQAjLNAgoLTXNnU2VydmljZXMSJAoJQ29uZmlnTWFwEggubXNnLk1h",
-            "cBoNLm1zZy5SZXNwb25zZRIvCg1Sb2JvdFBvc2l0aW9uEg8ubXNnLlJCUG9z",
-            "aXRpb24aDS5tc2cuUmVzcG9uc2USJwoJUm9ib3RQYXRoEgsubXNnLlJCUGF0",
-            "aBoNLm1zZy5SZXNwb25zZRIwCg1TZW5kVm9pY2VGaWxlEg4ubXNnLlZvaWNl",
-            "RGF0YRoNLm1zZy5SZXNwb25zZSgBEisKC1ZvaWNlUmVzdWx0Eg0ubXNnLlZv",
-            "aWNlU3RyGg0ubXNnLlJlc3BvbnNlEjAKDkNvbnRyb2xDb21tYW5kEg8ubXNn",
-            "LkNvbnRyb2xDbWQaDS5tc2cuUmVzcG9uc2USLQoNUm9ib3RGaW5pc2hlZBIN",
-            "Lm1zZy5SZXNwb25zZRoNLm1zZy5SZXNwb25zZUIMCghtc2cuZ3JwY1ABYgZw",
-            "cm90bzM="));
+            "KAESFwoDcG9zGAQgASgLMgoubXNnLlBvaW50Ih4KBFR5cGUSCAoEQ1VCRRAA",
+            "EgwKCENZTElOREVSEAEiSAoDTWFwEhEKCXJvb213aWR0aBgBIAEoARISCgpy",
+            "b29taGVpZ2h0GAIgASgBEhoKBmJsb2NrcxgDIAMoCzIKLm1zZy5CbG9jayJf",
+            "CgpDb250cm9sQ21kEiQKA2NtZBgBIAEoDjIXLm1zZy5Db250cm9sQ21kLkN0",
+            "cmxDbWQiKwoHQ3RybENtZBIJCgVTVEFSVBAAEggKBFNUT1AQARILCgdDT05O",
+            "RUNUEAIicAoFRHJpdmUSJQoIZHJpdmVjbWQYASABKA4yEy5tc2cuRHJpdmUu",
+            "RHJpdmVDbWQiQAoIRHJpdmVDbWQSCQoFRlJPTlQQABIICgRCQUNLEAESCAoE",
+            "TEVGVBACEgkKBVJJR0hUEAMSCgoGUk9UQVRFEAQiWwoIUmVzcG9uc2USJAoG",
+            "c3RhdHVzGAEgASgOMhQubXNnLlJlc3BvbnNlLlN0YXR1cyIpCgZTdGF0dXMS",
+            "BgoCT0sQABIJCgVFUlJPUhABEgwKCEZJTklTSEVEEAIyzQIKC01zZ1NlcnZp",
+            "Y2VzEiQKCUNvbmZpZ01hcBIILm1zZy5NYXAaDS5tc2cuUmVzcG9uc2USLwoN",
+            "Um9ib3RQb3NpdGlvbhIPLm1zZy5SQlBvc2l0aW9uGg0ubXNnLlJlc3BvbnNl",
+            "EicKCVJvYm90UGF0aBILLm1zZy5SQlBhdGgaDS5tc2cuUmVzcG9uc2USMAoN",
+            "U2VuZFZvaWNlRmlsZRIOLm1zZy5Wb2ljZURhdGEaDS5tc2cuUmVzcG9uc2Uo",
+            "ARIrCgtWb2ljZVJlc3VsdBINLm1zZy5Wb2ljZVN0choNLm1zZy5SZXNwb25z",
+            "ZRIwCg5Db250cm9sQ29tbWFuZBIPLm1zZy5Db250cm9sQ21kGg0ubXNnLlJl",
+            "c3BvbnNlEi0KDVJvYm90RmluaXNoZWQSDS5tc2cuUmVzcG9uc2UaDS5tc2cu",
+            "UmVzcG9uc2VCDAoIbXNnLmdycGNQAWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -58,7 +58,7 @@ namespace Msg {
             new pbr::GeneratedClrTypeInfo(typeof(global::Msg.RBPath), global::Msg.RBPath.Parser, new[]{ "Pos", "Starttime", "Endtime" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Msg.VoiceData), global::Msg.VoiceData.Parser, new[]{ "File" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Msg.VoiceStr), global::Msg.VoiceStr.Parser, new[]{ "Voice", "Timestamp" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Msg.Block), global::Msg.Block.Parser, new[]{ "Type", "W", "H" }, null, new[]{ typeof(global::Msg.Block.Types.Type) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Msg.Block), global::Msg.Block.Parser, new[]{ "Type", "W", "H", "Pos" }, null, new[]{ typeof(global::Msg.Block.Types.Type) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Msg.Map), global::Msg.Map.Parser, new[]{ "Roomwidth", "Roomheight", "Blocks" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Msg.ControlCmd), global::Msg.ControlCmd.Parser, new[]{ "Cmd" }, null, new[]{ typeof(global::Msg.ControlCmd.Types.CtrlCmd) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Msg.Drive), global::Msg.Drive.Parser, new[]{ "Drivecmd" }, null, new[]{ typeof(global::Msg.Drive.Types.DriveCmd) }, null, null),
@@ -1262,6 +1262,7 @@ namespace Msg {
       type_ = other.type_;
       w_ = other.w_;
       h_ = other.h_;
+      pos_ = other.pos_ != null ? other.pos_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1307,6 +1308,17 @@ namespace Msg {
       }
     }
 
+    /// <summary>Field number for the "pos" field.</summary>
+    public const int PosFieldNumber = 4;
+    private global::Msg.Point pos_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Msg.Point Pos {
+      get { return pos_; }
+      set {
+        pos_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Block);
@@ -1323,6 +1335,7 @@ namespace Msg {
       if (Type != other.Type) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(W, other.W)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(H, other.H)) return false;
+      if (!object.Equals(Pos, other.Pos)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1332,6 +1345,7 @@ namespace Msg {
       if (Type != global::Msg.Block.Types.Type.Cube) hash ^= Type.GetHashCode();
       if (W != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(W);
       if (H != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(H);
+      if (pos_ != null) hash ^= Pos.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1360,6 +1374,10 @@ namespace Msg {
         output.WriteRawTag(25);
         output.WriteDouble(H);
       }
+      if (pos_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Pos);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1381,6 +1399,10 @@ namespace Msg {
         output.WriteRawTag(25);
         output.WriteDouble(H);
       }
+      if (pos_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Pos);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1398,6 +1420,9 @@ namespace Msg {
       }
       if (H != 0D) {
         size += 1 + 8;
+      }
+      if (pos_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Pos);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1418,6 +1443,12 @@ namespace Msg {
       }
       if (other.H != 0D) {
         H = other.H;
+      }
+      if (other.pos_ != null) {
+        if (pos_ == null) {
+          Pos = new global::Msg.Point();
+        }
+        Pos.MergeFrom(other.Pos);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1445,6 +1476,13 @@ namespace Msg {
             H = input.ReadDouble();
             break;
           }
+          case 34: {
+            if (pos_ == null) {
+              Pos = new global::Msg.Point();
+            }
+            input.ReadMessage(Pos);
+            break;
+          }
         }
       }
     #endif
@@ -1469,6 +1507,13 @@ namespace Msg {
           }
           case 25: {
             H = input.ReadDouble();
+            break;
+          }
+          case 34: {
+            if (pos_ == null) {
+              Pos = new global::Msg.Point();
+            }
+            input.ReadMessage(Pos);
             break;
           }
         }

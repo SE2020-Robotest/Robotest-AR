@@ -7,7 +7,9 @@ using Grpc.Core;
 
 using System.Threading.Tasks;
 using System.Linq;
+
 using MapOperation;
+using textshow;
 
 namespace CSharpGRPC.services
 {
@@ -115,14 +117,17 @@ namespace CSharpGRPC.services
             /*
              * this function receives the recognition result of voice file sent to robot site.
              * param request contains the string of voice recognition result.
-             * TODO: please add the response of getting message of recognition to your main program.
+             * TODO: please add the respons of getting message of recognition to your main program.
              * the following code shows you how to operate the Data Structure VoiceStr
              */
             int timestamp = request.Timestamp;
             string voiceresult = request.Voice;
-            Console.WriteLine("time stamp: {0}, voice recognition result: {1}", timestamp, voiceresult);
+            //Console.WriteLine("time stamp: {0}, voice recognition result: {1}", timestamp, voiceresult);
             // the following code return the Response to the Client.
             // if the received request goes wrong, please modify Ok to Error.
+            textshow showone=new textshow();
+            showone.setText("voiceresult");//暂时实现
+
             Response response = new Response();
             response.Status = Response.Types.Status.Ok;
             return Task.FromResult(response);

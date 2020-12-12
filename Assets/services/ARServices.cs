@@ -64,8 +64,8 @@ namespace CSharpGRPC.services
              * TODO: please add the response of getting message of robot path to your main program.
             the following code shows you how to operate the Data Structure RBPath
              */
-            int starttime = request.Starttime;
-            int endtime = request.Endtime;
+            double starttime = request.Starttime;
+            double endtime = request.Endtime;
             Console.WriteLine("start time: {0}, end time: {1}\n", starttime, endtime);
             Google.Protobuf.Collections.RepeatedField<Point> points = request.Pos.Clone();
             foreach (Point point in points)
@@ -120,7 +120,7 @@ namespace CSharpGRPC.services
              * TODO: please add the respons of getting message of recognition to your main program.
              * the following code shows you how to operate the Data Structure VoiceStr
              */
-            int timestamp = request.Timestamp;
+            double timestamp = request.Timestamp;
             string voiceresult = request.Voice;
             //Console.WriteLine("time stamp: {0}, voice recognition result: {1}", timestamp, voiceresult);
             // the following code return the Response to the Client.

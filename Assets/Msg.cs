@@ -27,29 +27,31 @@ namespace Msg {
             "Cg9wcm90by9tc2cucHJvdG8SA21zZyIjCgVQb2ludBIMCgRwb3N4GAEgASgB",
             "EgwKBHBvc3kYAiABKAEiXwoKUkJQb3NpdGlvbhIXCgNwb3MYASABKAsyCi5t",
             "c2cuUG9pbnQSDQoFYW5nbGUYAiABKAESCgoCdngYAyABKAESCgoCdnkYBCAB",
-            "KAESEQoJdGltZXN0YW1wGAUgASgFIkUKBlJCUGF0aBIXCgNwb3MYASADKAsy",
-            "Ci5tc2cuUG9pbnQSEQoJc3RhcnR0aW1lGAIgASgFEg8KB2VuZHRpbWUYAyAB",
-            "KAUiGQoJVm9pY2VEYXRhEgwKBGZpbGUYASABKAwiLAoIVm9pY2VTdHISDQoF",
-            "dm9pY2UYASABKAkSEQoJdGltZXN0YW1wGAIgASgFInUKBUJsb2NrEh0KBHR5",
+            "KAESEQoJdGltZXN0YW1wGAUgASgBIkUKBlJCUGF0aBIXCgNwb3MYASADKAsy",
+            "Ci5tc2cuUG9pbnQSEQoJc3RhcnR0aW1lGAIgASgBEg8KB2VuZHRpbWUYAyAB",
+            "KAEiGQoJVm9pY2VEYXRhEgwKBGZpbGUYASABKAwiLAoIVm9pY2VTdHISDQoF",
+            "dm9pY2UYASABKAkSEQoJdGltZXN0YW1wGAIgASgBInUKBUJsb2NrEh0KBHR5",
             "cGUYASABKA4yDy5tc2cuQmxvY2suVHlwZRIJCgF3GAIgASgBEgkKAWgYAyAB",
             "KAESFwoDcG9zGAQgASgLMgoubXNnLlBvaW50Ih4KBFR5cGUSCAoEQ1VCRRAA",
             "EgwKCENZTElOREVSEAEiSAoDTWFwEhEKCXJvb213aWR0aBgBIAEoARISCgpy",
             "b29taGVpZ2h0GAIgASgBEhoKBmJsb2NrcxgDIAMoCzIKLm1zZy5CbG9jayJf",
             "CgpDb250cm9sQ21kEiQKA2NtZBgBIAEoDjIXLm1zZy5Db250cm9sQ21kLkN0",
             "cmxDbWQiKwoHQ3RybENtZBIJCgVTVEFSVBAAEggKBFNUT1AQARILCgdDT05O",
-            "RUNUEAIicAoFRHJpdmUSJQoIZHJpdmVjbWQYASABKA4yEy5tc2cuRHJpdmUu",
-            "RHJpdmVDbWQiQAoIRHJpdmVDbWQSCQoFRlJPTlQQABIICgRCQUNLEAESCAoE",
-            "TEVGVBACEgkKBVJJR0hUEAMSCgoGUk9UQVRFEAQiWwoIUmVzcG9uc2USJAoG",
-            "c3RhdHVzGAEgASgOMhQubXNnLlJlc3BvbnNlLlN0YXR1cyIpCgZTdGF0dXMS",
-            "BgoCT0sQABIJCgVFUlJPUhABEgwKCEZJTklTSEVEEAIyzQIKC01zZ1NlcnZp",
-            "Y2VzEiQKCUNvbmZpZ01hcBIILm1zZy5NYXAaDS5tc2cuUmVzcG9uc2USLwoN",
-            "Um9ib3RQb3NpdGlvbhIPLm1zZy5SQlBvc2l0aW9uGg0ubXNnLlJlc3BvbnNl",
-            "EicKCVJvYm90UGF0aBILLm1zZy5SQlBhdGgaDS5tc2cuUmVzcG9uc2USMAoN",
-            "U2VuZFZvaWNlRmlsZRIOLm1zZy5Wb2ljZURhdGEaDS5tc2cuUmVzcG9uc2Uo",
-            "ARIrCgtWb2ljZVJlc3VsdBINLm1zZy5Wb2ljZVN0choNLm1zZy5SZXNwb25z",
-            "ZRIwCg5Db250cm9sQ29tbWFuZBIPLm1zZy5Db250cm9sQ21kGg0ubXNnLlJl",
-            "c3BvbnNlEi0KDVJvYm90RmluaXNoZWQSDS5tc2cuUmVzcG9uc2UaDS5tc2cu",
-            "UmVzcG9uc2VCDAoIbXNnLmdycGNQAWIGcHJvdG8z"));
+            "RUNUEAIihgEKBURyaXZlEiUKCGRyaXZlY21kGAEgASgOMhMubXNnLkRyaXZl",
+            "LkRyaXZlQ21kIlYKCERyaXZlQ21kEgkKBUZST05UEAASCAoEQkFDSxABEggK",
+            "BExFRlQQAhIJCgVSSUdIVBADEg0KCUNMT0NLV0lTRRAEEhEKDUFOVElDTE9D",
+            "S1dJU0UQBSJbCghSZXNwb25zZRIkCgZzdGF0dXMYASABKA4yFC5tc2cuUmVz",
+            "cG9uc2UuU3RhdHVzIikKBlN0YXR1cxIGCgJPSxAAEgkKBUVSUk9SEAESDAoI",
+            "RklOSVNIRUQQAjL2AgoLTXNnU2VydmljZXMSJAoJQ29uZmlnTWFwEggubXNn",
+            "Lk1hcBoNLm1zZy5SZXNwb25zZRIvCg1Sb2JvdFBvc2l0aW9uEg8ubXNnLlJC",
+            "UG9zaXRpb24aDS5tc2cuUmVzcG9uc2USJwoJUm9ib3RQYXRoEgsubXNnLlJC",
+            "UGF0aBoNLm1zZy5SZXNwb25zZRIwCg1TZW5kVm9pY2VGaWxlEg4ubXNnLlZv",
+            "aWNlRGF0YRoNLm1zZy5SZXNwb25zZSgBEisKC1ZvaWNlUmVzdWx0Eg0ubXNn",
+            "LlZvaWNlU3RyGg0ubXNnLlJlc3BvbnNlEjAKDkNvbnRyb2xDb21tYW5kEg8u",
+            "bXNnLkNvbnRyb2xDbWQaDS5tc2cuUmVzcG9uc2USLQoNUm9ib3RGaW5pc2hl",
+            "ZBINLm1zZy5SZXNwb25zZRoNLm1zZy5SZXNwb25zZRInCgpEcml2ZVJvYm90",
+            "EgoubXNnLkRyaXZlGg0ubXNnLlJlc3BvbnNlQgwKCG1zZy5ncnBjUAFiBnBy",
+            "b3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -368,9 +370,9 @@ namespace Msg {
 
     /// <summary>Field number for the "timestamp" field.</summary>
     public const int TimestampFieldNumber = 5;
-    private int timestamp_;
+    private double timestamp_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int Timestamp {
+    public double Timestamp {
       get { return timestamp_; }
       set {
         timestamp_ = value;
@@ -394,7 +396,7 @@ namespace Msg {
       if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Angle, other.Angle)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Vx, other.Vx)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Vy, other.Vy)) return false;
-      if (Timestamp != other.Timestamp) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Timestamp, other.Timestamp)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -405,7 +407,7 @@ namespace Msg {
       if (Angle != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Angle);
       if (Vx != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Vx);
       if (Vy != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Vy);
-      if (Timestamp != 0) hash ^= Timestamp.GetHashCode();
+      if (Timestamp != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Timestamp);
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -438,9 +440,9 @@ namespace Msg {
         output.WriteRawTag(33);
         output.WriteDouble(Vy);
       }
-      if (Timestamp != 0) {
-        output.WriteRawTag(40);
-        output.WriteInt32(Timestamp);
+      if (Timestamp != 0D) {
+        output.WriteRawTag(41);
+        output.WriteDouble(Timestamp);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -467,9 +469,9 @@ namespace Msg {
         output.WriteRawTag(33);
         output.WriteDouble(Vy);
       }
-      if (Timestamp != 0) {
-        output.WriteRawTag(40);
-        output.WriteInt32(Timestamp);
+      if (Timestamp != 0D) {
+        output.WriteRawTag(41);
+        output.WriteDouble(Timestamp);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -492,8 +494,8 @@ namespace Msg {
       if (Vy != 0D) {
         size += 1 + 8;
       }
-      if (Timestamp != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Timestamp);
+      if (Timestamp != 0D) {
+        size += 1 + 8;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -521,7 +523,7 @@ namespace Msg {
       if (other.Vy != 0D) {
         Vy = other.Vy;
       }
-      if (other.Timestamp != 0) {
+      if (other.Timestamp != 0D) {
         Timestamp = other.Timestamp;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -557,8 +559,8 @@ namespace Msg {
             Vy = input.ReadDouble();
             break;
           }
-          case 40: {
-            Timestamp = input.ReadInt32();
+          case 41: {
+            Timestamp = input.ReadDouble();
             break;
           }
         }
@@ -594,8 +596,8 @@ namespace Msg {
             Vy = input.ReadDouble();
             break;
           }
-          case 40: {
-            Timestamp = input.ReadInt32();
+          case 41: {
+            Timestamp = input.ReadDouble();
             break;
           }
         }
@@ -660,9 +662,9 @@ namespace Msg {
 
     /// <summary>Field number for the "starttime" field.</summary>
     public const int StarttimeFieldNumber = 2;
-    private int starttime_;
+    private double starttime_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int Starttime {
+    public double Starttime {
       get { return starttime_; }
       set {
         starttime_ = value;
@@ -671,9 +673,9 @@ namespace Msg {
 
     /// <summary>Field number for the "endtime" field.</summary>
     public const int EndtimeFieldNumber = 3;
-    private int endtime_;
+    private double endtime_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int Endtime {
+    public double Endtime {
       get { return endtime_; }
       set {
         endtime_ = value;
@@ -694,8 +696,8 @@ namespace Msg {
         return true;
       }
       if(!pos_.Equals(other.pos_)) return false;
-      if (Starttime != other.Starttime) return false;
-      if (Endtime != other.Endtime) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Starttime, other.Starttime)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Endtime, other.Endtime)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -703,8 +705,8 @@ namespace Msg {
     public override int GetHashCode() {
       int hash = 1;
       hash ^= pos_.GetHashCode();
-      if (Starttime != 0) hash ^= Starttime.GetHashCode();
-      if (Endtime != 0) hash ^= Endtime.GetHashCode();
+      if (Starttime != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Starttime);
+      if (Endtime != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Endtime);
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -722,13 +724,13 @@ namespace Msg {
       output.WriteRawMessage(this);
     #else
       pos_.WriteTo(output, _repeated_pos_codec);
-      if (Starttime != 0) {
-        output.WriteRawTag(16);
-        output.WriteInt32(Starttime);
+      if (Starttime != 0D) {
+        output.WriteRawTag(17);
+        output.WriteDouble(Starttime);
       }
-      if (Endtime != 0) {
-        output.WriteRawTag(24);
-        output.WriteInt32(Endtime);
+      if (Endtime != 0D) {
+        output.WriteRawTag(25);
+        output.WriteDouble(Endtime);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -740,13 +742,13 @@ namespace Msg {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       pos_.WriteTo(ref output, _repeated_pos_codec);
-      if (Starttime != 0) {
-        output.WriteRawTag(16);
-        output.WriteInt32(Starttime);
+      if (Starttime != 0D) {
+        output.WriteRawTag(17);
+        output.WriteDouble(Starttime);
       }
-      if (Endtime != 0) {
-        output.WriteRawTag(24);
-        output.WriteInt32(Endtime);
+      if (Endtime != 0D) {
+        output.WriteRawTag(25);
+        output.WriteDouble(Endtime);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -758,11 +760,11 @@ namespace Msg {
     public int CalculateSize() {
       int size = 0;
       size += pos_.CalculateSize(_repeated_pos_codec);
-      if (Starttime != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Starttime);
+      if (Starttime != 0D) {
+        size += 1 + 8;
       }
-      if (Endtime != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Endtime);
+      if (Endtime != 0D) {
+        size += 1 + 8;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -776,10 +778,10 @@ namespace Msg {
         return;
       }
       pos_.Add(other.pos_);
-      if (other.Starttime != 0) {
+      if (other.Starttime != 0D) {
         Starttime = other.Starttime;
       }
-      if (other.Endtime != 0) {
+      if (other.Endtime != 0D) {
         Endtime = other.Endtime;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -800,12 +802,12 @@ namespace Msg {
             pos_.AddEntriesFrom(input, _repeated_pos_codec);
             break;
           }
-          case 16: {
-            Starttime = input.ReadInt32();
+          case 17: {
+            Starttime = input.ReadDouble();
             break;
           }
-          case 24: {
-            Endtime = input.ReadInt32();
+          case 25: {
+            Endtime = input.ReadDouble();
             break;
           }
         }
@@ -826,12 +828,12 @@ namespace Msg {
             pos_.AddEntriesFrom(ref input, _repeated_pos_codec);
             break;
           }
-          case 16: {
-            Starttime = input.ReadInt32();
+          case 17: {
+            Starttime = input.ReadDouble();
             break;
           }
-          case 24: {
-            Endtime = input.ReadInt32();
+          case 25: {
+            Endtime = input.ReadDouble();
             break;
           }
         }
@@ -1071,9 +1073,9 @@ namespace Msg {
 
     /// <summary>Field number for the "timestamp" field.</summary>
     public const int TimestampFieldNumber = 2;
-    private int timestamp_;
+    private double timestamp_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int Timestamp {
+    public double Timestamp {
       get { return timestamp_; }
       set {
         timestamp_ = value;
@@ -1094,7 +1096,7 @@ namespace Msg {
         return true;
       }
       if (Voice != other.Voice) return false;
-      if (Timestamp != other.Timestamp) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Timestamp, other.Timestamp)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1102,7 +1104,7 @@ namespace Msg {
     public override int GetHashCode() {
       int hash = 1;
       if (Voice.Length != 0) hash ^= Voice.GetHashCode();
-      if (Timestamp != 0) hash ^= Timestamp.GetHashCode();
+      if (Timestamp != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Timestamp);
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1123,9 +1125,9 @@ namespace Msg {
         output.WriteRawTag(10);
         output.WriteString(Voice);
       }
-      if (Timestamp != 0) {
-        output.WriteRawTag(16);
-        output.WriteInt32(Timestamp);
+      if (Timestamp != 0D) {
+        output.WriteRawTag(17);
+        output.WriteDouble(Timestamp);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -1140,9 +1142,9 @@ namespace Msg {
         output.WriteRawTag(10);
         output.WriteString(Voice);
       }
-      if (Timestamp != 0) {
-        output.WriteRawTag(16);
-        output.WriteInt32(Timestamp);
+      if (Timestamp != 0D) {
+        output.WriteRawTag(17);
+        output.WriteDouble(Timestamp);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -1156,8 +1158,8 @@ namespace Msg {
       if (Voice.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Voice);
       }
-      if (Timestamp != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Timestamp);
+      if (Timestamp != 0D) {
+        size += 1 + 8;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1173,7 +1175,7 @@ namespace Msg {
       if (other.Voice.Length != 0) {
         Voice = other.Voice;
       }
-      if (other.Timestamp != 0) {
+      if (other.Timestamp != 0D) {
         Timestamp = other.Timestamp;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -1194,8 +1196,8 @@ namespace Msg {
             Voice = input.ReadString();
             break;
           }
-          case 16: {
-            Timestamp = input.ReadInt32();
+          case 17: {
+            Timestamp = input.ReadDouble();
             break;
           }
         }
@@ -1216,8 +1218,8 @@ namespace Msg {
             Voice = input.ReadString();
             break;
           }
-          case 16: {
-            Timestamp = input.ReadInt32();
+          case 17: {
+            Timestamp = input.ReadDouble();
             break;
           }
         }
@@ -2138,7 +2140,8 @@ namespace Msg {
         [pbr::OriginalName("BACK")] Back = 1,
         [pbr::OriginalName("LEFT")] Left = 2,
         [pbr::OriginalName("RIGHT")] Right = 3,
-        [pbr::OriginalName("ROTATE")] Rotate = 4,
+        [pbr::OriginalName("CLOCKWISE")] Clockwise = 4,
+        [pbr::OriginalName("ANTICLOCKWISE")] Anticlockwise = 5,
       }
 
     }

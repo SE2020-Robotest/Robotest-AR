@@ -49,6 +49,7 @@ namespace Msg {
     static readonly grpc::Marshaller<global::Msg.VoiceData> __Marshaller_msg_VoiceData = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Msg.VoiceData.Parser));
     static readonly grpc::Marshaller<global::Msg.VoiceStr> __Marshaller_msg_VoiceStr = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Msg.VoiceStr.Parser));
     static readonly grpc::Marshaller<global::Msg.ControlCmd> __Marshaller_msg_ControlCmd = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Msg.ControlCmd.Parser));
+    static readonly grpc::Marshaller<global::Msg.Drive> __Marshaller_msg_Drive = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Msg.Drive.Parser));
 
     static readonly grpc::Method<global::Msg.Map, global::Msg.Response> __Method_ConfigMap = new grpc::Method<global::Msg.Map, global::Msg.Response>(
         grpc::MethodType.Unary,
@@ -99,6 +100,13 @@ namespace Msg {
         __Marshaller_msg_Response,
         __Marshaller_msg_Response);
 
+    static readonly grpc::Method<global::Msg.Drive, global::Msg.Response> __Method_DriveRobot = new grpc::Method<global::Msg.Drive, global::Msg.Response>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "DriveRobot",
+        __Marshaller_msg_Drive,
+        __Marshaller_msg_Response);
+
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
     {
@@ -140,6 +148,11 @@ namespace Msg {
       }
 
       public virtual global::System.Threading.Tasks.Task<global::Msg.Response> RobotFinished(global::Msg.Response request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      public virtual global::System.Threading.Tasks.Task<global::Msg.Response> DriveRobot(global::Msg.Drive request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -273,6 +286,22 @@ namespace Msg {
       {
         return CallInvoker.AsyncUnaryCall(__Method_RobotFinished, null, options, request);
       }
+      public virtual global::Msg.Response DriveRobot(global::Msg.Drive request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DriveRobot(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      public virtual global::Msg.Response DriveRobot(global::Msg.Drive request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_DriveRobot, null, options, request);
+      }
+      public virtual grpc::AsyncUnaryCall<global::Msg.Response> DriveRobotAsync(global::Msg.Drive request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DriveRobotAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      public virtual grpc::AsyncUnaryCall<global::Msg.Response> DriveRobotAsync(global::Msg.Drive request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_DriveRobot, null, options, request);
+      }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override MsgServicesClient NewInstance(ClientBaseConfiguration configuration)
       {
@@ -291,7 +320,8 @@ namespace Msg {
           .AddMethod(__Method_SendVoiceFile, serviceImpl.SendVoiceFile)
           .AddMethod(__Method_VoiceResult, serviceImpl.VoiceResult)
           .AddMethod(__Method_ControlCommand, serviceImpl.ControlCommand)
-          .AddMethod(__Method_RobotFinished, serviceImpl.RobotFinished).Build();
+          .AddMethod(__Method_RobotFinished, serviceImpl.RobotFinished)
+          .AddMethod(__Method_DriveRobot, serviceImpl.DriveRobot).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
@@ -307,6 +337,7 @@ namespace Msg {
       serviceBinder.AddMethod(__Method_VoiceResult, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Msg.VoiceStr, global::Msg.Response>(serviceImpl.VoiceResult));
       serviceBinder.AddMethod(__Method_ControlCommand, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Msg.ControlCmd, global::Msg.Response>(serviceImpl.ControlCommand));
       serviceBinder.AddMethod(__Method_RobotFinished, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Msg.Response, global::Msg.Response>(serviceImpl.RobotFinished));
+      serviceBinder.AddMethod(__Method_DriveRobot, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Msg.Drive, global::Msg.Response>(serviceImpl.DriveRobot));
     }
 
   }

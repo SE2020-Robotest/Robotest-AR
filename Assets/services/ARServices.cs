@@ -45,8 +45,11 @@ namespace CSharpGRPC.services
                 double h = block.H;
                 Console.WriteLine("Block Type: {0}, w: {1}, h:{2}", str, w, h);
             }
-            LoadMap loadMap = new LoadMap();
-            loadMap.loadMap(request);
+            Loom.QueueOnMainThread( () =>
+            {
+                GameObject.Find("Main Camera").GetComponent<LoadMap>().loadMap(request);
+            }
+            );
 
 
             // the following code return the Response to the Client.
@@ -128,7 +131,7 @@ namespace CSharpGRPC.services
             // if the received request goes wrong, please modify Ok to Error.
              Loom.QueueOnMainThread( () =>
             {
-                GameObject.Find("Canva/Text").GetComponent<textshow>().setText(voiceresult);
+                GameObject.Find("Canvas/Text").GetComponent<textshow>().setText(voiceresult);
             }
             );
 

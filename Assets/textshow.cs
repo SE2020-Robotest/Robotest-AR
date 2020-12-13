@@ -13,12 +13,12 @@ public class textshow : MonoBehaviour
     void Update(){
     }
         
-    void setText(string textin)
+    public void setText(string textin)
     {
 
         Text text =GameObject.Find("Canvas/Text").GetComponent<Text> () ;
         
-        text.text = "识别结果"+textin;
+        text.text = "识别结果: "+textin;
 
         Invoke("lateron",3.0f);
    }

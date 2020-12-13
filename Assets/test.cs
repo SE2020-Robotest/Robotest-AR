@@ -10,15 +10,20 @@ public class test : MonoBehaviour
 	//static Thread listenserverThread = new Thread(ARServer.StartServer);
     void Start()
     {
-		Thread listenserverThread = new Thread(ARServer.StartServer);
-        //ARServer.StartServer();
-		Debug.Log("Start Listen Server Thread");
-		listenserverThread.Start();
-		Thread.Sleep(1000);
-		ARServer.StopServer();
-		Debug.Log("Stop AR Server");
-		Thread.Sleep(1000);
-		//Debug.Log("Start AR Listen Server");
+		Loom.Initialize();
+        Loom.RunAsync(() =>
+            {
+                Debug.Log("Start Listen Server Thread");
+                Thread listenserverThread = new Thread(ARServer.StartServer);
+                Debug.Log("Stop AR Server");
+                listenserverThread.Start();
+                //Thread.Sleep(1000);
+                // ARServer.StopServer();
+                // Debug.Log("Stop AR Server");
+                // Thread.Sleep(1000); 
+                // Debug.Log("Start AR Listen Server");
+                    
+            });
     }
 
     // Update is called once per frame

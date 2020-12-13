@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
+using UnityEngine;
+using UnityEngine.UI;
 using Msg;
 using Grpc.Core;
 
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 using System.Linq;
 
 using MapOperation;
-using textshow;
+
 
 namespace CSharpGRPC.services
 {
@@ -122,11 +123,14 @@ namespace CSharpGRPC.services
              */
             double timestamp = request.Timestamp;
             string voiceresult = request.Voice;
-            //Console.WriteLine("time stamp: {0}, voice recognition result: {1}", timestamp, voiceresult);
+            Console.WriteLine("time stamp: {0}, voice recognition result: {1}", timestamp, voiceresult);
             // the following code return the Response to the Client.
             // if the received request goes wrong, please modify Ok to Error.
-            textshow showone=new textshow();
-            showone.setText("voiceresult");//暂时实现
+             Loom.QueueOnMainThread( () =>
+            {
+                GameObject.Find("Canva/Text").GetComponent<textshow>().setText(voiceresult);
+            }
+            );
 
             Response response = new Response();
             response.Status = Response.Types.Status.Ok;

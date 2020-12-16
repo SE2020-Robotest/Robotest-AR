@@ -15,7 +15,7 @@ public class test : MonoBehaviour
             {
                 Debug.Log("Start Listen Server Thread");
                 Thread listenserverThread = new Thread(ARServer.StartServer);
-                Debug.Log("Stop AR Server");
+                //Debug.Log("Stop AR Server");
                 listenserverThread.Start();
                 //Thread.Sleep(1000);
                 // ARServer.StopServer();

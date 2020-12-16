@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="137ef5ab-3a26-4e96-9c4a-e7efa8c8ed75" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/services/ARClient.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PlayerMove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RobotMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/test.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Msg.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RobotPathShow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LoadMap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/services/ARServer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/services/ARServices.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test.cs" />
+        <option value="$PROJECT_DIR$/PlayerMove.cs" />
+        <option value="$PROJECT_DIR$/RobotMove.cs" />
+        <option value="$PROJECT_DIR$/LoadMap.cs" />
+        <option value="$PROJECT_DIR$/RobotPath.cs" />
+        <option value="$PROJECT_DIR$/services/ARServices.cs" />
+        <option value="$PROJECT_DIR$/RobotPathShow.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lgzAF4A5c7PofYEkXs5uDA0Y6s" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="137ef5ab-3a26-4e96-9c4a-e7efa8c8ed75" name="Default Changelist" comment="" />
+      <created>1608033381334</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608033381334</updated>
+      <workItem from="1608033383699" duration="7957000" />
+      <workItem from="1608113839913" duration="4610000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="479" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608118771741">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="479" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1608118771741" />
+  </component>
+</project>

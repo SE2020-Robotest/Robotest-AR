@@ -43,11 +43,12 @@ namespace CSharpGRPC.services
                 }
                 double w = block.W;
                 double h = block.H;
-                Console.WriteLine("Block Type: {0}, w: {1}, h:{2}", str, w, h);
+                Debug.Log(block.ToString());
+                //Debug.Log("Block Type: {0}, w: {1}, h:{2}", str, w, h);
             }
             Loom.QueueOnMainThread( () =>
             {
-                GameObject.Find("Main Camera").GetComponent<LoadMap>().loadMap(request);
+                GameObject.Find("Map").GetComponent<LoadMap>().loadMap(request);
             }
             );
 
@@ -78,6 +79,11 @@ namespace CSharpGRPC.services
                 double posy = point.Posy;
                 Console.WriteLine("position x: {0}, position y: {1}", posx, posy);
             }
+            Loom.QueueOnMainThread( () =>
+                {
+                    GameObject.Find("Map").GetComponent<RobotPathShow>().drawPath(request);
+                }
+            );
 
             // the following code return the Response to the Client.
             // if the received request goes wrong, please modify Ok to Error.
@@ -133,6 +139,27 @@ namespace CSharpGRPC.services
             {
                 GameObject.Find("Canvas/Text").GetComponent<textshow>().setText(voiceresult);
             }
+            );
+
+            Response response = new Response();
+            response.Status = Response.Types.Status.Ok;
+            return Task.FromResult(response);
+        }
+        
+        
+        public override Task<Response> RobotPosition(RBPosition request, ServerCallContext context)
+        {
+            double angle = request.Angle;
+            double vx = request.Vx;
+            double vy = request.Vy;
+            double timestamp = request.Timestamp;
+            Point position = request.Pos;
+            // the following code return the Response to the Client.
+            // if the received request goes wrong, please modify Ok to Error.
+            Loom.QueueOnMainThread( () =>
+                {
+                    GameObject.Find("robot").GetComponent<RobotMove>().updateRobotPosi(request);
+                }
             );
 
             Response response = new Response();

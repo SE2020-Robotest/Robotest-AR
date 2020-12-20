@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-    public float speed = 1.5f;//控制移动速度
+    public float speed = 15f;//控制移动速度
     public Transform m_transform;
 
     // Use this for initialization
@@ -61,5 +61,7 @@ public class PlayerMove : MonoBehaviour
         {
             m_transform.Translate(Vector3.down * Time.deltaTime * speed);
         }
+       
+ 
     }
 }

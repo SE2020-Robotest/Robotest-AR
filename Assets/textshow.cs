@@ -20,7 +20,7 @@ public class textshow : MonoBehaviour
         
         text.text = "识别结果: "+textin;
 
-        Invoke("lateron",3.0f);
+        Invoke("lateron",10.0f);
    }
    private void lateron()
    {

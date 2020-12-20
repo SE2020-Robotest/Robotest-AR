@@ -16,7 +16,7 @@ public class RobotMove : MonoBehaviour
 
         Transform robot = this.transform;
         
-        robot.position = new Vector3((float)position.Posx, 1, (float)position.Posy);
+        robot.position = new Vector3((float)position.Posx/10.0f, 1, (float)position.Posy/10.0f);
         robot.localEulerAngles = new Vector3(0, (float)angle, 0);
     }
 }
